@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Resume</title>
     <style>
         h1{
             text-align: center;
@@ -58,19 +58,63 @@
         .text p{
             font-size: 18px;
         }
+        *{
+            padding:0;
+            margin:0;
+            font-family: roboto,serif;
+            ul{
+                list-style: none;
+                background-color: #333;
+                text-align: center;
+            }
+            ul li{
+                display: inline-block;
+                position: relative;
+            }
+            ul li a{
+                display: block;
+                padding: 30px 158px;
+                font-size:16px;
+                color:#FFF;
+                text-decoration: none;
+                text-align: center;
+            }
+            ul li il.dropdown li{
+                display:block;
+                background: #333;
+                margin: 2px 1px;
+            }
+            ul li ul.dropdown {
+                width: auto;
+                background: #333;
+                position: absolute;
+                z-index: 999;
+                display: none;
+            }
+            ul li a:hover {
+                background:#222;
+            }
+            ul li:hover ul.dropdown {
+                display: block;}}
     </style>
 </head>
 <body>
 <h1>Resume</h1>
-<nav class="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Aboutme.html">About me</a></li>
-        <li><a href="Resume.html">Resume</a></li>
-        <li><a href="OtherPages.html">other pages</a></li>
-        <li><a href="">test page 1</a></li>
-    </ul>
-</nav>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Aboutme.html">About me</a></li>
+    <li><a href="Resume.html">Resume</a></li>
+    <li><a href="#">other pages &#x25BE;</a>
+        <ul class="dropdown">
+            <li><a href="RubixCubes.html">Rubix Cubes</a></li>
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">Yoyos</a></li>
+            <li><a href="#">Card Tricks</a></li>
+            <li><a href="#">Video Games</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Test page 1</a></li>
+</ul>
 
 
 <div class="container">
