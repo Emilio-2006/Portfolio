@@ -39,7 +39,7 @@ body{
     width: 75%;
 }
 img{
-    max-width: 350px;
+    max-width: 230px;
     float: left;
     border-radius: 10px;
     border: 3px solid white;
@@ -50,7 +50,7 @@ img{
     padding: 5px;
 }
 .text p{
-    font-size: 18px;
+    font-size: 16px;
 }
 *{
     padding:0;
