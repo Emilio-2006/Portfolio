@@ -3,7 +3,7 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: hsl(0, 0%, 0%);
+    background-color: white;
     padding: 1px;
     margin: 1px;
     overflow: hidden;
@@ -32,7 +32,7 @@ body{
     justify-content: end;
     align-items: end;
     min-height: 50vh;
-    background-color: green;
+    background-color: black;
 }
 .container{
     margin: 100px auto;
@@ -51,6 +51,7 @@ img{
 }
 .text p{
     font-size: 30px;
+    color:white;
 }
 *{
     padding:0;
@@ -86,7 +87,7 @@ img{
         display: none;
     }
     ul li a:hover {
-        background:#222;
+        background:black;
     }
     ul li:hover ul.dropdown {
         display: block;}}
