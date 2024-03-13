@@ -2,12 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>OSHA Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align: center;
+        }
+        .navbar ul{
+            list-style-type: none;
+            background-color: hsl(0, 0%, 0%);
+            padding: 1px;
+            margin: 1px;
+            overflow: hidden;
+        }
+
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 150px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color: hsl(0, 0%, 10%);
+        }
+        .navbar li{
+            float: left;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            justify-content: end;
+            align-items: end;
+            min-height: 50vh;
+            background-color: black;
+        }
+        .container{
+            margin: 100px auto;
+            width: 75%;
+        }
+        img{
+            max-width: 1400px;
+            float: left;
+            border-radius: 10px;
+            border: 3px solid white;
+            margin-right: 20px;
+        }
+        .text h2 {
+            font-size: 50px;
+            padding: 5px;
+        }
+        .text p{
+            font-size: 50px;
+        }
+        *{
+            padding:0;
+            margin:0;
+            font-family: roboto,serif;
+            ul{
+                list-style: none;
+                background-color: #333;
+                text-align: center;
+            }
+            ul li{
+                display: inline-block;
+                position: relative;
+            }
+            ul li a{
+                display: block;
+                padding: 30px 158px;
+                font-size:16px;
+                color:#FFF;
+                text-decoration: none;
+                text-align: center;
+            }
+            ul li il.dropdown li{
+                display:block;
+                background: #333;
+                margin: 2px 1px;
+            }
+            ul li ul.dropdown {
+                width: auto;
+                background: #333;
+                position: absolute;
+                z-index: 999;
+                display: none;
+            }
+            ul li a:hover {
+                background:#222;
+            }
+            ul li:hover ul.dropdown {
+                display: block;}}
+    </style>
 </head>
 <body>
 <ul>
-    <li><a href="">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="Aboutme.html">About me</a></li>
     <li><a href="Resume.html">Resume</a></li>
     <li><a href="#">other pages &#x25BE;</a>
@@ -21,6 +115,12 @@
     </li>
     <li><a href="OSHA%2010.html">OSHA 10</a></li>
 </ul>
-
+<div class="container">
+    <img src="OSHA.jpg" width="3112" length="100" alt="">
+    <div class="text">
+        <h2>Welcome To My OSHA 10 Page</h2>
+        <p>This is my OSHA 10 Page which contains my certificate for OSHA 10 </p>
+    </div>
+</div>
 </body>
 </html>
