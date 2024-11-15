@@ -1,0 +1,17 @@
+fieldset[name=fieldset1]{
+    background-color: turquoise;
+    margin: 40px;
+}
+fieldset[name=fieldset2]{
+    background-color: orange;
+    margin: 40px
+}
+
+fieldset[name=fieldset3]{
+    background-color: lavender;
+    margin: 40px
+}
+legend{
+    background-color: white;
+    border: solid 2px grey;
+}
