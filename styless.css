@@ -1,0 +1,40 @@
+
+body {
+    margin: 40px;
+}
+h1{
+    background-color: white;
+    margin: 40px;
+}
+body {
+    background-color: #3be125;
+}
+details {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 1px;
+    margin: 1px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 150px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
