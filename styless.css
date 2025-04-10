@@ -16,6 +16,10 @@ details {
 main {
     background-color: white;
 }
+h1{
+    text-align: center;
+}
+
 
 .navbar ul{
     list-style-type: none;
@@ -38,3 +42,72 @@ main {
 .navbar li{
     float: left;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    justify-content: end;
+    align-items: end;
+    min-height: 50vh;
+    background-color: black;
+}
+.container{
+    margin: 100px auto;
+    width: 75%;
+}
+img{
+    max-width: 230px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.text h2 {
+    font-size: 45px;
+    padding: 5px;
+    text-align: center;
+}
+.text p{
+    font-size: 30px;
+    color:white;
+}
+*{
+    padding:0;
+    margin:0;
+    font-family: roboto,serif;
+    ul{
+        list-style: none;
+        background-color: #333;
+        text-align: center;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 10px 35px;
+        font-size:16px;
+        color:#FFF;
+        text-decoration: none;
+        text-align: center;
+    }
+    ul li il.dropdown li{
+        display:block;
+        background: #333;
+        margin: 2px 1px;
+    }
+    ul li ul.dropdown {
+        width: auto;
+        background: #333;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    ul li a:hover {
+        background:black;
+    }
+    ul li:hover ul.dropdown {
+        display: block;}}
